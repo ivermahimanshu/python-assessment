@@ -1,0 +1,45 @@
+Questoin 1
+
+list_of_numbers = []
+def list_sum(no_list):
+	sum = 0
+	for i in no_list:
+		sum+=i
+	return sum
+
+QUestion 2
+
+no_of_users = input("Enter the number of users")
+Dict1 = {i:input(f"Enter the names of {i} user") for i in range(no_of_users)}
+Dict2 = {i:input(f"ENter the marks of {i} student" for i in range(no_of_users)}
+
+def return_max_marks_student_info(student_dict):
+	max_key=max(student_dict)
+	temp={max_key:student_dict[max_key}
+	print(temp)
+	return temp
+
+
+Question 3
+
+a=[0,0,0,1,1,1,0,0,0,1,1,0,1,1,1,1,0,0,1,1]
+
+count=0
+temp_string=''
+
+for i in a:
+
+    temp_string+=str(i)
+str_without_0=temp_string.split('0')
+
+for j in max(str_without_0):
+
+    count+=1
+
+print(count)
+
+
+Question 4
+
+I have studied Django and created a website https://himanshuresume.pythonanywhere.com
+I have also created a miniblogging website which i haven't deployed yet.
